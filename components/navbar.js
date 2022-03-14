@@ -43,7 +43,7 @@ const Navbar = () => {
       {/* DeskTop */}
       <div
         className={
-          'p-10 hidden lg:flex md:flex justify-center items-center lg:mx-auto lg:mt-6 md:w-screen md:h-screen'
+          'p-10 hidden lg:flex md:flex justify-center items-center lg:mx-auto lg:mt-6 md:w-screen'
         }>
         <div className={'flex'}>
           <div className={'flex flex-col justify-center'}>
