@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import SocialMediaIcons from './socialMediaIcons';
+import { TiArrowDownThick } from 'react-icons/ti';
 
 const Navbar = () => {
   return (
@@ -18,25 +19,33 @@ const Navbar = () => {
       {/* mobile */}
       <div className="flex flex-wrap lg:justify-center lg:hidden md:hidden text-center pt-12 gap-[2px] h-screen ">
         <Link href="/about">
-          <a className="bg-[#50b2a2] py-12 px-6 w-[49.5%] ">About</a>
+          <a className="bg-[#50b2a2] py-12 px-6 w-[49.5%] ">
+            About Sandiip Porwal
+          </a>
         </Link>
         <Link href="/ourTeam">
-          <a className="bg-[#50b28a] py-12 px-6 w-[49.8%] ">OurTeam</a>
+          <a className="bg-[#50b28a] py-12 px-6 w-[49.8%] ">
+            Digital Consulting Services
+          </a>
         </Link>
         <Link href="/resume">
-          <a className="bg-[#c85141] py-8 w-full">Resume</a>
+          <a className="bg-[#c85141] py-8 w-full text-gray-300">Services</a>
         </Link>
         <Link href="/ourWorks">
-          <a className=" bg-[#0fa2cb] py-24 w-full ">Our Works</a>
+          <a className=" bg-[#0fa2cb] py-24 w-full">
+            How Business Consulting Helps?
+          </a>
         </Link>
         <Link href="/contact">
-          <a className="bg-[#d8457a] py-8 w-full">Contacts</a>
+          <a className="bg-[#d8457a] py-8 w-full">Shedule Meeting</a>
         </Link>
         <Link href="/blog">
-          <a className="bg-[#d8733b] py-12 w-[49.5%]">Blog</a>
+          <a className="bg-[#d8733b] py-12 w-[49.5%]">
+            Knowledge Center page with Q&A
+          </a>
         </Link>
         <Link href="/feedback">
-          <a className="bg-[#d9912a] py-12 w-[49.8%]">Feedback</a>
+          <a className="bg-[#d9912a] py-12 w-[49.8%]">Collaboration With Me</a>
         </Link>
       </div>
 
@@ -48,47 +57,64 @@ const Navbar = () => {
         <div className={'flex'}>
           <div className={'flex flex-col justify-center'}>
             <div className={'flex lg:gap-6 md:gap-5'}>
-              <p
-                className={
-                  'bg-[#50b2a2] lg:p-14 lg:px-12 md:px-7 md:h-32 text-center align-baseline'
-                }>
-                our team
-              </p>
-              <p className={'bg-[#50b28a] lg:p-14 md:px-9 md:py-9 md:h-32'}>
-                about
-              </p>
+              <Link href="/about">
+                <a className="bg-[#50b2a2] lg:w-[9.8rem] md:h-[8rem] md:w-[7rem] justify-end text-center flex flex-col">
+                  About Sandiip Porwal
+                </a>
+              </Link>
+              <Link href="/ourTeam">
+                <a
+                  className={
+                    'flex flex-col justify-end text-center bg-[#50b28a] lg:w-[9.8rem] md:w-[7rem] md:h-[8rem]'
+                  }>
+                  Digital Consulting Services
+                </a>
+              </Link>
             </div>
             <div
               className={
-                'bg-[#c85141] lg:w-[21rem] lg:h-[10rem] md:w-[16rem] md:h-[8rem] md:mt-8 lg:mt-8 lg:py-10 text-center justify-center'
+                'flex flex-col bg-[#c85141] lg:w-[21rem] lg:h-[10rem] md:w-[15.4rem] md:h-[7rem] md:mt-8 text-left justify-end'
               }>
-              resume
+              <Link href="resume">
+                <a>Services</a>
+              </Link>
             </div>
           </div>
           <div
             className={
-              'ml-10 bg-[#0fa2cb] lg:w-80 md:w-60 md:h-68 lg:h-84 flex text-center justify-center py-24'
+              'ml-6 bg-[#0fa2cb] lg:w-80 md:w-[15rem] md:h-[17rem] lg:h-[20rem] flex flex-col text-left justify-end'
             }>
-            our works
+            <Link href="ourWorks">
+              <a>How Business Consulting Helps?</a>
+            </Link>
           </div>
           <div>
-            <div className={'ml-10'}>
+            <div className={'ml-6'}>
               <div
                 className={
-                  'bg-[#d8457a] lg:w-[21rem] md:w-[16rem] md:h-[8rem] lg:h-[10rem] lg:py-7 justify-center text-center'
+                  'flex flex-col bg-[#d8457a] lg:w-[21rem] md:w-[15.4rem] md:h-[7rem] lg:h-[10rem]  justify-end text-left'
                 }>
-                Contacts
+                <Link href="/contact">
+                  <a>Shedule Meeting</a>
+                </Link>
               </div>
-              <div className={'flex lg:gap-8 lg:mt-8 md:mt-8 md:gap-5 '}>
-                <p
-                  className={
-                    'bg-[#d8733b] lg:p-14 lg:px-14 md:px-10 md:h-32 text-center align-baseline'
-                  }>
-                  Blog
-                </p>
-                <p className={'bg-[#d9912a] lg:p-12 md:px-7 md:py-8 md:h-32'}>
-                  FeedBack
-                </p>
+              <div className={'flex lg:gap-8 lg:mt-8 md:mt-8 md:gap-5'}>
+                <Link href="/blog">
+                  <a
+                    className={
+                      'flex flex-col justify-end text-left bg-[#d8733b]      lg:w-[9.5rem] md:w-[7rem] md:h-[8rem]'
+                    }>
+                    Knowledge Center page with Q&A
+                  </a>
+                </Link>
+                <Link href="/feedback">
+                  <a
+                    className={
+                      'bg-[#d9912a] lg:w-[9.5rem] md:w-[7rem] md:h-[8rem] flex flex-col justify-end text-left'
+                    }>
+                    Collaboration With Me
+                  </a>
+                </Link>
               </div>
             </div>
           </div>
