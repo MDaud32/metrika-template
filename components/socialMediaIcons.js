@@ -8,7 +8,7 @@ import Link from 'next/link';
 
 const SocialMediaIcons = () => {
   return (
-    <div className="flex flex-row items-center justify-center text-gray-400">
+    <div className="flex flex-row items-center justify-center text-gray-500">
       <Link href="/facebook.com">
         <a className="text-[3rem] hover:text-gray-800">
           <RiFacebookCircleLine />

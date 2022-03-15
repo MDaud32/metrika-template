@@ -5,7 +5,7 @@ import { TiArrowDownThick } from 'react-icons/ti';
 
 const Navbar = () => {
   return (
-    <div className="w-screen bg-gray-200">
+    <div className="bg-gray-50 h-screen w-full">
       {/* logo and social links */}
       <div className="flex flex-col lg:justify-evenly justify-center items-center lg:pt-10">
         <div className="text-2xl lg:ml-[55rem] pb-7 lg:m-4 lg:self-center md:self-end self-end">
@@ -23,17 +23,17 @@ const Navbar = () => {
             About Sandiip Porwal
           </a>
         </Link>
-        <Link href="/ourTeam">
+        <Link href="/consultingServices">
           <a className="flex flex-col justify-end text-left bg-[#50b28a] h-[10rem] w-[49.8%] ">
             Digital Consulting Services
           </a>
         </Link>
-        <Link href="/resume">
+        <Link href="/services">
           <a className="flex flex-col justify-end text-left bg-[#c85141] h-[8rem] w-full text-gray-300">
             Services
           </a>
         </Link>
-        <Link href="/ourWorks">
+        <Link href="/businessHelp">
           <a className="flex flex-col justify-end text-left bg-[#0fa2cb] h-[16rem] w-full">
             How Business Consulting Helps?
           </a>
@@ -43,12 +43,12 @@ const Navbar = () => {
             Shedule Meeting
           </a>
         </Link>
-        <Link href="/blog">
+        <Link href="/knowledgeCenter">
           <a className="flex flex-col justify-end text-left bg-[#d8733b] h-[11rem] w-[49.5%]">
             Knowledge Center page with Q&A
           </a>
         </Link>
-        <Link href="/feedback">
+        <Link href="/collaboration">
           <a className="flex flex-col justify-end text-left bg-[#d9912a] h-[11rem] w-[49.8%]">
             Collaboration With Me
           </a>
@@ -68,7 +68,7 @@ const Navbar = () => {
                   About Sandiip Porwal
                 </a>
               </Link>
-              <Link href="/ourTeam">
+              <Link href="/consultingServices">
                 <a
                   className={
                     'flex flex-col justify-end text-left bg-[#50b28a] lg:w-[9.8rem] md:w-[7rem] md:h-[8rem]'
@@ -81,7 +81,7 @@ const Navbar = () => {
               className={
                 'flex flex-col bg-[#c85141] lg:w-[21rem] lg:h-[10rem] md:w-[15.4rem] md:h-[7rem] md:mt-8 text-left justify-end'
               }>
-              <Link href="resume">
+              <Link href="/services">
                 <a>Services</a>
               </Link>
             </div>
@@ -90,7 +90,7 @@ const Navbar = () => {
             className={
               'ml-6 bg-[#0fa2cb] lg:w-80 md:w-[15rem] md:h-[17rem] lg:h-[20rem] flex flex-col text-left justify-end'
             }>
-            <Link href="ourWorks">
+            <Link href="/businessHelp">
               <a>How Business Consulting Helps?</a>
             </Link>
           </div>
@@ -105,7 +105,7 @@ const Navbar = () => {
                 </Link>
               </div>
               <div className={'flex lg:gap-8 lg:mt-8 md:mt-8 md:gap-5'}>
-                <Link href="/blog">
+                <Link href="/knowledgeCenter">
                   <a
                     className={
                       'flex flex-col justify-end text-left bg-[#d8733b]      lg:w-[9.5rem] md:w-[7rem] md:h-[8rem]'
@@ -113,7 +113,7 @@ const Navbar = () => {
                     Knowledge Center page with Q&A
                   </a>
                 </Link>
-                <Link href="/feedback">
+                <Link href="/collaboration">
                   <a
                     className={
                       'bg-[#d9912a] lg:w-[9.5rem] md:w-[7rem] md:h-[8rem] flex flex-col justify-end text-left'
@@ -125,12 +125,6 @@ const Navbar = () => {
             </div>
           </div>
         </div>
-      </div>
-
-      <div className="mt-[-30rem] lg:mt-[-40rem] md:mt-[-40rem]">
-        <footer className="flex flex-col text-center h-screen justify-end text-xl text-gray-500">
-          Copyright © Metrika inc., 2022
-        </footer>
       </div>
     </div>
   );
