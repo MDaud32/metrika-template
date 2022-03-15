@@ -5,7 +5,7 @@ import { TiArrowDownThick } from 'react-icons/ti';
 
 const Navbar = () => {
   return (
-    <div className="w-full bg-gray-200">
+    <div className="w-screen bg-gray-200">
       {/* logo and social links */}
       <div className="flex flex-col lg:justify-evenly justify-center items-center lg:pt-10">
         <div className="text-2xl lg:ml-[55rem] pb-7 lg:m-4 lg:self-center md:self-end self-end">
@@ -19,33 +19,39 @@ const Navbar = () => {
       {/* mobile */}
       <div className="flex flex-wrap lg:justify-center lg:hidden md:hidden text-center pt-12 gap-[2px] h-screen ">
         <Link href="/about">
-          <a className="bg-[#50b2a2] py-12 px-6 w-[49.5%] ">
+          <a className="flex flex-col justify-end text-left bg-[#50b2a2] h-[10rem] w-[49.5%] ">
             About Sandiip Porwal
           </a>
         </Link>
         <Link href="/ourTeam">
-          <a className="bg-[#50b28a] py-12 px-6 w-[49.8%] ">
+          <a className="flex flex-col justify-end text-left bg-[#50b28a] h-[10rem] w-[49.8%] ">
             Digital Consulting Services
           </a>
         </Link>
         <Link href="/resume">
-          <a className="bg-[#c85141] py-8 w-full text-gray-300">Services</a>
+          <a className="flex flex-col justify-end text-left bg-[#c85141] h-[8rem] w-full text-gray-300">
+            Services
+          </a>
         </Link>
         <Link href="/ourWorks">
-          <a className=" bg-[#0fa2cb] py-24 w-full">
+          <a className="flex flex-col justify-end text-left bg-[#0fa2cb] h-[16rem] w-full">
             How Business Consulting Helps?
           </a>
         </Link>
         <Link href="/contact">
-          <a className="bg-[#d8457a] py-8 w-full">Shedule Meeting</a>
+          <a className="flex flex-col justify-end text-left bg-[#d8457a] h-[8rem] w-full">
+            Shedule Meeting
+          </a>
         </Link>
         <Link href="/blog">
-          <a className="bg-[#d8733b] py-12 w-[49.5%]">
+          <a className="flex flex-col justify-end text-left bg-[#d8733b] h-[11rem] w-[49.5%]">
             Knowledge Center page with Q&A
           </a>
         </Link>
         <Link href="/feedback">
-          <a className="bg-[#d9912a] py-12 w-[49.8%]">Collaboration With Me</a>
+          <a className="flex flex-col justify-end text-left bg-[#d9912a] h-[11rem] w-[49.8%]">
+            Collaboration With Me
+          </a>
         </Link>
       </div>
 
@@ -65,7 +71,7 @@ const Navbar = () => {
               <Link href="/ourTeam">
                 <a
                   className={
-                    'flex flex-col justify-end text-center bg-[#50b28a] lg:w-[9.8rem] md:w-[7rem] md:h-[8rem]'
+                    'flex flex-col justify-end text-left bg-[#50b28a] lg:w-[9.8rem] md:w-[7rem] md:h-[8rem]'
                   }>
                   Digital Consulting Services
                 </a>
@@ -121,9 +127,11 @@ const Navbar = () => {
         </div>
       </div>
 
-      <footer className="text-center text-lg text-gray-500">
-        Copyright © Metrika inc., 2022
-      </footer>
+      <div className="mt-[-10rem] lg:mt-[-40rem] md:mt-[-40rem]">
+        <footer className="flex flex-col text-center h-screen justify-end text-xl text-gray-500">
+          Copyright © Metrika inc., 2022
+        </footer>
+      </div>
     </div>
   );
 };
