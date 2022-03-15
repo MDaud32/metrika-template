@@ -127,7 +127,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className="mt-[-10rem] lg:mt-[-40rem] md:mt-[-40rem]">
+      <div className="mt-[-18rem] lg:mt-[-40rem] md:mt-[-40rem]">
         <footer className="flex flex-col text-center h-screen justify-end text-xl text-gray-500">
           Copyright © Metrika inc., 2022
         </footer>
