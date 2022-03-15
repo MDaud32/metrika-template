@@ -5,28 +5,28 @@ import Link from 'next/link';
 
 const About = () => {
   return (
-    <div className="lg:w-screen bg-[#50b2a2] md:h-screen   lg:h-screen">
+    <div className="w-screen lg:h-screen bg-[#50b2a2]">
       {/* logo arrowicon social media icon */}
       <div className="flex lg:w-[80%] p-6 mx-auto flex-row justify-between items-center text-center py-12">
-        <div className=" flex lg:flex-row flex-col gap-8 items-center">
-          <div className="lg:text-4xl text-5xl mt-3 self-start">
+        <div className=" flex lg:flex-row flex-col gap-7 items-center">
+          <div className="lg:text-4xl text-5xl text-white mt-2 self-start">
             <Link href="/">
               <a>
                 <FiArrowUpCircle className="" />
               </a>
             </Link>
           </div>
-          <h1 className="lg:text-6xl md:text-6xl text-4xl whitespace-nowrap">
+          <h1 className="lg:text-6xl md:text-6xl text-4xl text-white whitespace-nowrap">
             About Us
           </h1>
         </div>
-        <div className="self-start">
+        <div className="self-start ml-[-2rem]">
           <SocialMediaIcons />
         </div>
       </div>
 
       {/* content */}
-      <div className="lg:w-[80%] w-[90%] mx-auto flex flex-col justify-center items-center text-left">
+      <div className="lg:w-[80%]  w-[90%] mx-auto my-auto flex flex-col justify-center items-center text-left">
         <div className=" text-white my-20">
           <p className="text-2xl">
             Duis tincidunt erat quam. Etiam placerat sapien elit. Pellentesque
