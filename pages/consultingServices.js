@@ -7,7 +7,7 @@ import Image from 'next/image';
 const OurTeam = () => {
   return (
     <div>
-      <div className="w-screena bg-[#50b2a2]">
+      <div className="w-screena bg-[#50b28a]">
         {/* logo arrowicon social media icon */}
         <div className="flex lg:w-[80%] p-6 mx-auto flex-row justify-between items-center text-center py-12">
           <div className=" flex lg:flex-row flex-col gap-7 items-center">
@@ -18,7 +18,7 @@ const OurTeam = () => {
                 </a>
               </Link>
             </div>
-            <h1 className="lg:text-6xl md:text-6xl text-4xl text-white lg:w-[10rem]">
+            <h1 className="lg:text-6xl md:text-6xl text-left text-4xl text-white lg:w-[10rem]">
               Digital Consulting Services
             </h1>
           </div>
