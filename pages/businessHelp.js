@@ -18,7 +18,7 @@ const BusinessHelp = () => {
                 </a>
               </Link>
             </div>
-            <h1 className="lg:text-6xl md:text-6xl text-left text-4xl text-white lg:w-[10rem]">
+            <h1 className="lg:text-6xl md:text-6xl text-left text-4xl text-white lg:w-[30rem] w-[20rem]">
               How Business Consulting Helps?
             </h1>
           </div>

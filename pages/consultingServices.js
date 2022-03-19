@@ -28,123 +28,59 @@ const OurTeam = () => {
         </div>
 
         {/* content */}
-        <div className="w-screen">
-          <section className="flex flex-row text-center justify-center pt-20 lg:pt-[30px] pb-10 lg:pb-20 ">
-            <div className="container">
-              <div className="flex flex-wrap justify-center items-center">
-                <div className="w-full md:w-1/2 xl:w-1/3 px-4">
-                  <div className="bg-white rounded-lg overflow-hidden mb-10">
-                    <Image
-                      src="/first.jpg"
-                      alt="image"
-                      className="w-full"
-                      width={450}
-                      height={300}
-                    />
-                    <div className="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
-                      <h3>
-                        <Link href="/">
-                          <a
-                            className="
-                        font-semibold
-                        text-dark text-xl
-                        sm:text-[22px]
-                        md:text-xl
-                        lg:text-[22px]
-                        xl:text-xl
-                        2xl:text-[22px]
-                        mb-4
-                        block
-                        hover:text-primary
-                        ">
-                            50+ Best creative website themes & templates
-                          </a>
-                        </Link>
-                      </h3>
-                      <p className="text-base text-body-color leading-relaxed mb-7">
-                        Lorem ipsum dolor sit amet pretium consectetur
-                        adipiscing elit. Lorem consectetur adipiscing elit.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="w-full md:w-1/2 xl:w-1/3 px-4">
-                  <div className="bg-white rounded-lg overflow-hidden mb-10">
-                    <Image
-                      src="/second.jpg"
-                      alt="image"
-                      className="w-full"
-                      width={450}
-                      height={300}
-                    />
-                    <div className="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
-                      <h3>
-                        <Link href="/">
-                          <a
-                            className="
-                          font-semibold
-                        text-dark text-xl
-                        sm:text-[22px]
-                        md:text-xl
-                        lg:text-[22px]
-                        xl:text-xl
-                        2xl:text-[22px]
-                        mb-4
-                        block
-                        hover:text-primary
-                        ">
-                            The ultimate UX and UI guide to card design
-                          </a>
-                        </Link>
-                      </h3>
-                      <p className="text-base text-body-color leading-relaxed mb-7">
-                        Lorem ipsum dolor sit amet pretium consectetur
-                        adipiscing elit. Lorem consectetur adipiscing elit.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="w-full md:w-1/2 xl:w-1/3 px-4">
-                  <div className="bg-white rounded-lg overflow-hidden mb-10">
-                    <Image
-                      src="/third.jpg"
-                      alt="image"
-                      className="w-full"
-                      width={450}
-                      height={300}
-                    />
-                    <div className="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
-                      <h3>
-                        <Link href="/">
-                          <a
-                            className="
-                          font-semibold
-                        text-dark text-xl
-                        sm:text-[22px]
-                        md:text-xl
-                        lg:text-[22px]
-                        xl:text-xl
-                        2xl:text-[22px]
-                        mb-4
-                        block
-                        hover:text-primary
-                        ">
-                            The ultimate UX and UI guide to card design
-                          </a>
-                        </Link>
-                      </h3>
-                      <p className="text-base text-body-color leading-relaxed mb-7">
-                        Lorem ipsum dolor sit amet pretium consectetur
-                        adipiscing elit. Lorem consectetur adipiscing elit.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
+        <div className="p-4 xl:w-[60%] lg:w-[90%] mx-auto grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-8">
+          {/* card 1 */}
+          <div className="rounded overflow-hidden shadow-lg bg-white">
+            <Image
+              className="w-full "
+              src="/first.jpg"
+              alt="Mountain"
+              width={400}
+              height={250}
+            />
+            <div className="px-6 py-4">
+              <div className="font-bold text-xl mb-2">Mountain</div>
+              <p className="text-gray-700 text-base">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Voluptatibus quia
+              </p>
             </div>
-          </section>
+          </div>
+          {/* card 2 */}
+          <div className="rounded overflow-hidden shadow-lg bg-white">
+            <Image
+              className="w-full"
+              src="/second.jpg"
+              alt="River"
+              width={400}
+              height={250}
+            />
+            <div className="px-6 py-4">
+              <div className="font-bold text-xl mb-2">River</div>
+              <p className="text-gray-700 text-base">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Voluptatibus quia
+              </p>
+            </div>
+          </div>
+
+          {/* card 3 */}
+          <div className="rounded overflow-hidden shadow-lg bg-white">
+            <Image
+              className="w-full"
+              src="/third.jpg"
+              alt="Forest"
+              width={400}
+              height={250}
+            />
+            <div className="px-6 py-4">
+              <div className="font-bold text-xl mb-2">Forest</div>
+              <p className="text-gray-700 text-base">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Voluptatibus quia
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
