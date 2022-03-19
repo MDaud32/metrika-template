@@ -1,9 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import SocialMediaIcons from './socialMediaIcons';
-import { GrServices } from 'react-icons/gr';
 import { GoBook } from 'react-icons/go';
-import { ImInfo } from 'react-icons/im';
 import { AiOutlineCustomerService } from 'react-icons/ai';
 import { ImArrowDown } from 'react-icons/im';
 import { IoMdPhotos } from 'react-icons/io';
