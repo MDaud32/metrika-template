@@ -107,7 +107,7 @@ const Navbar = () => {
 
       <div
         className={
-          'p-10 hidden lg:flex md:flex justify-center items-center lg:mx-auto lg:mt-[-2rem] md:w-screen md:h-screen'
+          'p-10 hidden lg:flex md:flex justify-center items-center lg:mx-auto lg:mt-[-2rem] md:w-screen'
         }>
         <div className={'flex'}>
           <div className={'flex flex-col justify-center'}>
@@ -163,9 +163,9 @@ const Navbar = () => {
               }>
               <Link href="/services">
                 <a>
-                  <div className={'flex flex-col gap-6 '}>
+                  <div className={'flex flex-col md:gap-1 lg:gap-6 '}>
                     <ImArrowDown
-                      size={'70'}
+                      size={'60'}
                       color={'white'}
                       className={'mx-auto'}
                     />
@@ -179,7 +179,7 @@ const Navbar = () => {
           </div>
           <div
             className={
-              'ml-6 bg-[#0fa2cb] lg:w-80 md:w-[15rem] md:h-[17rem] lg:h-[21.5rem] flex flex-col text-left justify-end hover:bg-gray-900'
+              'ml-6 bg-[#0fa2cb] lg:w-80 md:w-[18rem] md:h-[19rem] lg:h-[21.5rem] flex flex-col text-left justify-end hover:bg-gray-900'
             }>
             <Link href="/businessHelp">
               <a>
@@ -204,11 +204,11 @@ const Navbar = () => {
                 }>
                 <Link href="/contact">
                   <a>
-                    <div className={'flex flex-col gap-6 '}>
+                    <div className={'flex flex-col md:gap-1 lg:gap-6 '}>
                       <AiOutlineContacts
                         size={'70'}
                         color={'white'}
-                        className={'mx-auto'}
+                        className={'mx-auto md:pt-2'}
                       />
                       <p className={'px-2  text-xl md:font-normal text-white '}>
                         Shedule Meeting
@@ -224,7 +224,7 @@ const Navbar = () => {
                       className={
                         'bg-[#d8733b] lg:w-[9.5rem] flex flex-col justify-end md:h-[9.5rem] md:w-[7rem] hover:cursor-pointer hover:bg-gray-900'
                       }>
-                      <div className={'flex flex-col gap-2 '}>
+                      <div className={'flex flex-col lg:gap-6 md:gap-1 '}>
                         <BsPencilFill
                           size={'60'}
                           color={'white'}
