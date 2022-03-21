@@ -6,7 +6,7 @@ import { FiArrowUpCircle } from 'react-icons/fi';
 const OurTeam = () => {
   return (
     <div>
-      <div className="w-screen pb-20 md:h-screen bg-[#50b28a]">
+      <div className="w-screen pb-20 md:h-full bg-[#50b28a]">
         {/* logo arrowicon social media icon */}
         <div className="flex lg:w-[80%] p-6 mx-auto flex-row justify-between items-center text-center py-12">
           <div className=" flex lg:flex-row flex-col gap-7 items-center">
@@ -29,6 +29,9 @@ const OurTeam = () => {
         <div className="flex justify-center text-center text-6xl font-semibold text-white my-20">
           <h1>Digital Marketing Services</h1>
         </div>
+        <button className="flex justify-center items-center text-center  mx-auto px-6 py-4 bg-yellow-500 my-8 rounded-md text-xl font-semibold cursor-pointer underline">
+          Shedule An Appointment
+        </button>
 
         {/* content */}
         <div className=" lg:w-[90%] md:w-[85%] mx-auto flex flex-wrap px-1 lg:justify-center text-center pt-12 gap-[3.3px] lg:gap-7 md:gap-4">
