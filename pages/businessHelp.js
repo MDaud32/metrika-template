@@ -2,7 +2,6 @@ import React from 'react';
 import Link from 'next/link';
 import SocialMediaIcons from '../components/socialMediaIcons';
 import { FiArrowUpCircle } from 'react-icons/fi';
-import Image from 'next/image';
 
 const BusinessHelp = () => {
   return (
@@ -18,8 +17,8 @@ const BusinessHelp = () => {
                 </a>
               </Link>
             </div>
-            <h1 className="lg:text-6xl md:text-6xl text-left text-4xl text-white lg:w-[30rem] w-[20rem]">
-              How Business Consulting Helps?
+            <h1 className="lg:text-6xl md:text-6xl text-left text-4xl text-white">
+              SANDIIP PORWAL
             </h1>
           </div>
           <div className="self-start ml-[-13rem]">
@@ -28,107 +27,57 @@ const BusinessHelp = () => {
         </div>
 
         {/* content */}
-        <div className="p-4 xl:w-[60%] lg:w-[90%] mx-auto grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-8">
-          {/* card 1 */}
-          <div className="rounded overflow-hidden shadow-lg bg-white">
-            <Image
-              className="w-full "
-              src="/first.jpg"
-              alt="Mountain"
-              width={400}
-              height={250}
-            />
-            <div className="px-6 py-4">
-              <div className="font-bold text-xl mb-2">Mountain</div>
-              <p className="text-gray-700 text-base">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Voluptatibus quia
-              </p>
+        <div className="p-4  mx-auto grid">
+          <section className="text-gray-800">
+            <div className="container mx-auto flex flex-col p-6">
+              <h2 className="py-4 text-5xl text-gray-100 font-bold text-center">
+                How Digital Marketing Consulting Helps Your Business?
+              </h2>
+              <div className="text-2xl text-white w-[70%] mx-auto my-8">
+                Sandiip Porwal is a Digital Marketing Branding expert is the
+                business of providing business critical digital marketing
+                solutions to drive influence and increase market share. My
+                clients are Entrepreneurs, Small and Mid-Size Business,
+                Corporates and Traditional and Digital Marketing Agencies who
+                are short on capacity. The mission, since inception, is to serve
+                quality with an unparalleled level of service. The Digital
+                Marketing Success Process
+              </div>
+              <div className="divide-y divide-coolGray-700">
+                <div className="grid justify-center  p-8 mx-auto space-y-8 lg:space-y-0">
+                  <div className="flex flex-col justify-center max-w-3xl text-center mx-auto">
+                    <span className="text-xl font-bold md:text-2xl">
+                      1. RESEARCH Business,Competition, Catalysts
+                    </span>
+                  </div>
+                </div>
+                <div className="grid justify-center  p-8 mx-auto space-y-8 lg:space-y-0">
+                  <div className="flex items-center justify-center lg:col-span-1 col-span-full"></div>
+                  <div className="flex flex-col justify-center max-w-3xl text-center">
+                    <span className="text-xl font-bold md:text-2xl">
+                      2. DEVELOP Strategy, Solutions & Plan Explicabo eaque
+                    </span>
+                  </div>
+                </div>
+                <div className="grid justify-center  p-8 mx-auto space-y-8 lg:space-y-0">
+                  <div className="flex items-center justify-center lg:col-span-1 col-span-full"></div>
+                  <div className="flex flex-col justify-center max-w-3xl text-center">
+                    <span className="text-xl font-bold md:text-2xl">
+                      3. DEPLOY Digital Strategy and Monitor
+                    </span>
+                  </div>
+                </div>
+                <div className="grid justify-center  p-8 mx-auto space-y-8 lg:space-y-0">
+                  <div className="flex items-center justify-center lg:col-span-1 col-span-full"></div>
+                  <div className="flex flex-col justify-center max-w-3xl text-center">
+                    <span className="text-xl font-bold md:text-2xl">
+                      4. ANALYSE, Interpret, and Deploy Optimisations
+                    </span>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-          {/* card 2 */}
-          <div className="rounded overflow-hidden shadow-lg bg-white">
-            <Image
-              className="w-full"
-              src="/second.jpg"
-              alt="River"
-              width={400}
-              height={250}
-            />
-            <div className="px-6 py-4">
-              <div className="font-bold text-xl mb-2">River</div>
-              <p className="text-gray-700 text-base">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Voluptatibus quia
-              </p>
-            </div>
-          </div>
-
-          {/* card 3 */}
-          <div className="rounded overflow-hidden shadow-lg bg-white">
-            <Image
-              className="w-full"
-              src="/third.jpg"
-              alt="Forest"
-              width={400}
-              height={250}
-            />
-            <div className="px-6 py-4">
-              <div className="font-bold text-xl mb-2">Forest</div>
-              <p className="text-gray-700 text-base">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Voluptatibus quia
-              </p>
-            </div>
-          </div>
-          <div className="rounded overflow-hidden shadow-lg bg-white">
-            <Image
-              className="w-full"
-              src="/third.jpg"
-              alt="Forest"
-              width={400}
-              height={250}
-            />
-            <div className="px-6 py-4">
-              <div className="font-bold text-xl mb-2">Forest</div>
-              <p className="text-gray-700 text-base">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Voluptatibus quia
-              </p>
-            </div>
-          </div>
-          <div className="rounded overflow-hidden shadow-lg bg-white">
-            <Image
-              className="w-full"
-              src="/third.jpg"
-              alt="Forest"
-              width={400}
-              height={250}
-            />
-            <div className="px-6 py-4">
-              <div className="font-bold text-xl mb-2">Forest</div>
-              <p className="text-gray-700 text-base">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Voluptatibus quia
-              </p>
-            </div>
-          </div>
-          <div className="rounded overflow-hidden shadow-lg bg-white">
-            <Image
-              className="w-full"
-              src="/third.jpg"
-              alt="Forest"
-              width={400}
-              height={250}
-            />
-            <div className="px-6 py-4">
-              <div className="font-bold text-xl mb-2">Forest</div>
-              <p className="text-gray-700 text-base">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Voluptatibus quia
-              </p>
-            </div>
-          </div>
+          </section>
         </div>
       </div>
     </div>
