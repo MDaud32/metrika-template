@@ -20,7 +20,7 @@ const Contact = () => {
             SANDIIP PORWAL
           </h1>
         </div>
-        <div className="self-start ml-[-10rem]">
+        <div className="self-start ml-[-10.6rem]">
           <SocialMediaIcons />
         </div>
       </div>
