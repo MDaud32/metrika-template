@@ -14,7 +14,7 @@ const BusinessHelp = () => {
             <div className="lg:text-4xl text-5xl text-white mt-2 self-start">
               <Link href="/">
                 <a>
-                  <FiArrowUpCircle className="" />
+                  <FiArrowUpCircle />
                 </a>
               </Link>
             </div>
