@@ -22,7 +22,7 @@ const BusinessHelp = () => {
               How Business Consulting Helps?
             </h1>
           </div>
-          <div className="self-start ml-[-3rem]">
+          <div className="self-start ml-[-13rem]">
             <SocialMediaIcons />
           </div>
         </div>
