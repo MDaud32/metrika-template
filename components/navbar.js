@@ -107,7 +107,7 @@ const Navbar = () => {
 
       <div
         className={
-          'p-10 hidden lg:flex md:flex justify-center items-center lg:mx-auto lg:mt-[-2rem] md:w-screen'
+          'p-10 hidden lg:flex md:flex justify-center items-center lg:mx-auto lg:mt-[4rem] md:w-screen'
         }>
         <div className={'flex'}>
           <div className={'flex flex-col justify-center'}>
