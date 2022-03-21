@@ -17,13 +17,13 @@ const Navbar = () => {
         <div className="text-2xl lg:ml-[55rem] pb-7 lg:m-4 lg:self-center md:self-end self-end">
           <SocialMediaIcons />
         </div>
-        <h1 className="text-4xl font-light lg:text-6xl lg:ml-[-52rem] lg:mt-[-7rem] mt-8 ">
+        <h1 className="text-4xl font-light lg:text-6xl lg:ml-[-52rem] lg:mt-[-7rem]">
           Metrika
         </h1>
       </div>
 
       {/* mobile */}
-      <div className="flex flex-wrap px-1 lg:justify-center lg:hidden md:hidden text-center pt-12 gap-[2px] h-screen">
+      <div className="flex flex-wrap px-1 lg:justify-center lg:hidden md:hidden text-center pt-8 gap-[2px] h-screen">
         <Link href="/about">
           <a className="flex flex-col justify-end text-left bg-[#50b2a2] h-[10rem] w-[49.5%] ">
             <div className={'flex flex-col gap-6 '}>
