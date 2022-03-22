@@ -30,10 +30,10 @@ const BusinessHelp = () => {
         <div className="p-4  mx-auto grid">
           <section className="text-gray-800">
             <div className="container mx-auto flex flex-col p-6">
-              <h2 className="py-4 text-5xl text-gray-100 font-bold text-center">
+              <h2 className="py-4 lg:text-5xl md:text-5xl text-3xl text-gray-100 font-bold text-center">
                 How Digital Marketing Consulting Helps Your Business?
               </h2>
-              <div className="text-2xl text-white w-[70%] mx-auto my-8">
+              <div className="lg:text-2xl md:text-2xl text-xl text-white lg:w-[70%] md:[70%] w-[95%] mx-auto my-8">
                 Sandiip Porwal is a Digital Marketing Branding expert is the
                 business of providing business critical digital marketing
                 solutions to drive influence and increase market share. My

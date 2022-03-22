@@ -40,7 +40,7 @@ const KnowledgeCenter = () => {
       <div className="flex h-screen w-screen justify-center items-center">
         <div className="lg:w-[600px] md:w-[600px] w-[90%] ">
           {data.map((item, i) => (
-            <div key={i} className="bg-[#f0ebe1] mb-3 py-3 px-20">
+            <div key={i} className="bg-[#f0ebe1] mb-3 py-3 px-8">
               <div
                 className="text-black flex justify-between items-center cursor-pointer"
                 onClick={() => toggle(i)}>

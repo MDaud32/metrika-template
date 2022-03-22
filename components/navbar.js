@@ -23,19 +23,19 @@ const Navbar = () => {
       </div>
 
       {/* mobile */}
-      <div className="flex flex-wrap px-1 lg:justify-center lg:hidden md:hidden text-center pt-8 gap-[2px] h-screen">
+      <div className="flex flex-wrap px-1 lg:justify-center lg:hidden md:hidden text-center pt-8 gap-[4px] h-screen">
         <Link href="/about">
-          <a className="flex flex-col justify-end text-left bg-[#50b2a2] h-[10rem] w-[49.5%] ">
+          <a className="flex flex-col justify-end text-left bg-[#50b2a2] h-[10rem] w-[49.3%] ">
             <div className={'flex flex-col gap-6 '}>
               <GoBook size={'60'} color={'white'} className={'mx-auto'} />
-              <p className={'px-2 lg:font-semibold md:font-normal text-white'}>
+              <p className={'px-2 lg:font-semibold md:font-normal  text-white'}>
                 About sandip porwal
               </p>
             </div>
           </a>
         </Link>
         <Link href="/consultingServices">
-          <a className="flex flex-col justify-end text-left bg-[#50b28a] h-[10rem] w-[49.8%] ">
+          <a className="flex flex-col justify-end text-left bg-[#50b28a] h-[10rem] w-[49.3%] ">
             <div className={'flex flex-col gap-6 '}>
               <AiOutlineCustomerService
                 size={'60'}
@@ -48,17 +48,17 @@ const Navbar = () => {
           </a>
         </Link>
         <Link href="/services">
-          <a className="flex flex-col justify-end text-left bg-[#c85141] h-[8rem] w-full text-gray-300">
+          <a className="flex flex-col justify-end text-left bg-[#c85141] h-[10rem] w-full text-gray-300">
             <div className={'flex flex-col gap-3 '}>
-              <ImArrowDown size={'60'} color={'white'} className={'mx-auto'} />
-              <p className={'px-2 text-lg text-white'}>Services</p>
+              <ImArrowDown size={'70'} color={'white'} className={'mx-auto'} />
+              <p className={'px-2 text-2xl text-white'}>Services</p>
             </div>
           </a>
         </Link>
         <Link href="/businessHelp">
           <a className="flex flex-col justify-end text-left bg-[#0fa2cb] h-[16rem] w-full">
             <div className={'flex flex-col gap-16 '}>
-              <IoMdPhotos size={'60'} color={'white'} className={'mx-auto'} />
+              <IoMdPhotos size={'90'} color={'white'} className={'mx-auto'} />
               <p className={'px-2 text-2xl text-white'}>
                 How Business Consulting Helps
               </p>
@@ -66,29 +66,32 @@ const Navbar = () => {
           </a>
         </Link>
         <Link href="/contact">
-          <a className="flex flex-col justify-end text-left bg-[#d8457a] h-[8rem] w-full">
+          <a className="flex flex-col justify-end text-left bg-[#d8457a] h-[10rem] w-full">
             <div className={'flex flex-col gap-3 '}>
               <AiOutlineContacts
-                size={'60'}
+                size={'80'}
                 color={'white'}
                 className={'mx-auto'}
               />
-              <p className={'px-2 text-lg text-white'}>Shedule Meeting</p>
+              <p className={'px-2 text-2xl text-white'}>Shedule Meeting</p>
             </div>
           </a>
         </Link>
         <Link href="/knowledgeCenter">
-          <a className="flex flex-col justify-end text-left bg-[#d8733b] h-[11rem] w-[49.5%]">
+          <a className="flex flex-col justify-end text-left bg-[#d8733b] h-[11rem] w-[49.3%]">
             <div className={'flex flex-col gap-6 '}>
               <BsPencilFill size={'60'} color={'white'} className={'mx-auto'} />
-              <p className={'px-2 lg:font-semibold md:font-normal text-white'}>
+              <p
+                className={
+                  'px-2 text-lg lg:font-semibold md:font-normal text-white'
+                }>
                 Knowledge Center
               </p>
             </div>
           </a>
         </Link>
         <Link href="/collaboration">
-          <a className="flex flex-col justify-end text-left bg-[#d9912a] h-[11rem] w-[49.8%]">
+          <a className="flex flex-col justify-end text-left bg-[#d9912a] h-[11rem] w-[49.3%]">
             <div className={'flex flex-col gap-6 '}>
               <AiOutlineMail
                 size={'60'}
@@ -96,7 +99,7 @@ const Navbar = () => {
                 className={'mx-auto'}
               />
               <p className={'px-2 lg:font-semibold md:font-normal text-white'}>
-                Collaboration With Me
+                Collaborate With Me
               </p>
             </div>
           </a>
