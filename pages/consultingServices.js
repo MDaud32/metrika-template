@@ -35,33 +35,54 @@ const OurTeam = () => {
         </button>
 
         {/* content */}
-        <div className=" lg:w-[90%] md:w-[85%] mx-auto flex flex-wrap px-1 lg:justify-center text-center pt-12 pb-12 gap-[3.3px] lg:gap-7 md:gap-4">
+        <div className=" lg:w-[70%] md:w-[85%] mx-auto flex flex-wrap px-1 lg:justify-center text-center pt-12 pb-12 gap-[3.3px] lg:gap-7 md:gap-4">
           <div className="flex flex-col justify-center text-center bg-gray-400 h-[8rem] w-[62%] lg:h-[12rem] md:h-[10rem] lg:w-[60%] md:w-[60%] ">
-            <p className={'px-2 lg:font-semibold md:font-normal text-white'}>
+            <p
+              className={
+                'px-2 lg:font-semibold md:font-normal lg:text-2xl text-white'
+              }>
               Search Engine Optimization
             </p>
           </div>
           <div className="flex flex-col justify-center text-center bg-white h-[8rem] lg:h-[12rem] md:h-[10rem] w-[37%] ">
-            <p className={'px-2 lg:font-semibold md:font-normal text-black'}>
+            <p className={'px-2 lg:font-semibold md:font-normal lg:text-2xl'}>
               Online Reputation Managment
             </p>
           </div>
           <div className="flex flex-col justify-center text-center bg-white h-[8rem] lg:h-[12rem] md:h-[10rem] w-[37%] text-gray-300">
-            <p className={'px-2 text-lg text-black'}>Services</p>
+            <p
+              className={
+                'px-2 lg:font-semibold md:font-normal lg:text-2xl text-black'
+              }>
+              Services
+            </p>
           </div>
           <div className="flex flex-col justify-center text-center bg-gray-400 h-[8rem] lg:h-[12rem] md:h-[10rem] md:w-[60%] lg:w-[60%]  w-[62%]">
-            <p className={'px-2 text-2xl text-white'}>Google Ads Compaigns</p>
+            <p
+              className={
+                'px-2 lg:font-semibold md:font-normal lg:text-2xl text-white'
+              }>
+              Google Ads Compaigns
+            </p>
           </div>
           <div className="flex flex-col justify-center text-center bg-gray-400 h-[8rem] lg:h-[12rem] lg:w-[32%] w-[33%] md:h-[10rem]">
-            <p className={'px-2 text-lg text-white'}>Shedule Meeting</p>
+            <p
+              className={
+                'px-2 lg:font-semibold md:font-normal lg:text-2xl text-white'
+              }>
+              Shedule Meeting
+            </p>
           </div>
           <div className="flex flex-col justify-center text-center bg-white h-[8rem] lg:h-[12rem] md:h-[10rem] lg:w-[31%] w-[32%]">
-            <p className={'px-2 lg:font-semibold md:font-normal text-black'}>
+            <p className={'px-2 lg:font-semibold md:font-normal lg:text-2xl'}>
               Knowledge Center
             </p>
           </div>
           <div className="flex flex-col justify-center text-center bg-gray-400 h-[8rem] lg:h-[12rem] md:h-[10rem] lg:w-[31%]  w-[33%] md:w-[30%]">
-            <p className={'px-2 lg:font-semibold md:font-normal text-white'}>
+            <p
+              className={
+                'px-2 lg:font-semibold md:font-normal lg:text-2xl text-white'
+              }>
               Collaboration With Me
             </p>
           </div>

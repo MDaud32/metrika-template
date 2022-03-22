@@ -8,7 +8,7 @@ import Footer from '../components/footer';
 const Services = () => {
   return (
     <div>
-      <div className="w-screena md:h-screen bg-[#50b28a]">
+      <div className="w-screen md:h-screen bg-[#50b28a]">
         {/* logo arrowicon social media icon */}
         <div className="flex lg:w-[80%] p-6 mx-auto flex-row justify-between items-center text-center py-12">
           <div className=" flex lg:flex-row flex-col gap-7 items-center">
@@ -29,61 +29,65 @@ const Services = () => {
         </div>
 
         {/* content */}
-        <div className="p-4 xl:w-[60%] lg:w-[90%] mx-auto grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-8">
+        <div className="flex flex-col">
           {/* card 1 */}
-          <div className="rounded overflow-hidden shadow-lg bg-white">
-            <Image
-              className="w-full "
-              src="/first.jpg"
-              alt="Mountain"
-              width={400}
-              height={250}
-            />
-            <div className="px-6 py-4">
-              <div className="font-bold text-xl mb-2">Mountain</div>
-              <p className="text-gray-700 text-base">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Voluptatibus quia
-              </p>
+          <div className="p-4 xl:w-[60%] lg:w-[90%] mx-auto grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-8">
+            <div className="rounded overflow-hidden shadow-lg bg-white">
+              <Image
+                className="w-full "
+                src="/first.jpg"
+                alt="Mountain"
+                width={400}
+                height={250}
+              />
+              <div className="px-6 py-4">
+                <div className="font-bold text-xl mb-2">Mountain</div>
+                <p className="text-gray-700 text-base">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Voluptatibus quia
+                </p>
+              </div>
             </div>
-          </div>
-          {/* card 2 */}
-          <div className="rounded overflow-hidden shadow-lg bg-white">
-            <Image
-              className="w-full"
-              src="/second.jpg"
-              alt="River"
-              width={400}
-              height={250}
-            />
-            <div className="px-6 py-4">
-              <div className="font-bold text-xl mb-2">River</div>
-              <p className="text-gray-700 text-base">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Voluptatibus quia
-              </p>
+            {/* card 2 */}
+            <div className="rounded overflow-hidden shadow-lg bg-white">
+              <Image
+                className="w-full"
+                src="/second.jpg"
+                alt="River"
+                width={400}
+                height={250}
+              />
+              <div className="px-6 py-4">
+                <div className="font-bold text-xl mb-2">River</div>
+                <p className="text-gray-700 text-base">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Voluptatibus quia
+                </p>
+              </div>
             </div>
-          </div>
 
-          {/* card 3 */}
-          <div className="rounded overflow-hidden shadow-lg bg-white">
-            <Image
-              className="w-full"
-              src="/third.jpg"
-              alt="Forest"
-              width={400}
-              height={250}
-            />
-            <div className="px-6 py-4">
-              <div className="font-bold text-xl mb-2">Forest</div>
-              <p className="text-gray-700 text-base">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Voluptatibus quia
-              </p>
+            {/* card 3 */}
+            <div className="rounded overflow-hidden shadow-lg bg-white">
+              <Image
+                className="w-full"
+                src="/third.jpg"
+                alt="Forest"
+                width={400}
+                height={250}
+              />
+              <div className="px-6 py-4">
+                <div className="font-bold text-xl mb-2">Forest</div>
+                <p className="text-gray-700 text-base">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Voluptatibus quia
+                </p>
+              </div>
             </div>
           </div>
         </div>
-        <Footer />
+        <div className="flex justify-center lg:mt-[12rem] md:mt-[9rem]">
+          <Footer />
+        </div>
       </div>
     </div>
   );

@@ -8,6 +8,7 @@ import { IoMdPhotos } from 'react-icons/io';
 import { AiOutlineContacts } from 'react-icons/ai';
 import { BsPencilFill } from 'react-icons/bs';
 import { AiOutlineMail } from 'react-icons/ai';
+import Footer from './footer';
 
 const Navbar = () => {
   return (
@@ -104,13 +105,16 @@ const Navbar = () => {
             </div>
           </a>
         </Link>
+        <div className="flex justify-center text-center mx-auto">
+          <Footer />
+        </div>
       </div>
 
       {/* DeskTop */}
 
       <div
         className={
-          'p-10 hidden lg:flex md:flex justify-center items-center lg:mx-auto lg:mt-[4rem] md:w-screen'
+          'p-10 hidden lg:flex flex-col md:flex justify-center items-center lg:mx-auto lg:mt-[4rem] md:w-screen'
         }>
         <div className={'flex'}>
           <div className={'flex flex-col justify-center'}>
@@ -268,6 +272,9 @@ const Navbar = () => {
               </div>
             </div>
           </div>
+        </div>
+        <div className="mt-[10rem]">
+          <Footer />
         </div>
       </div>
     </div>

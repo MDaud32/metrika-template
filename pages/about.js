@@ -6,7 +6,7 @@ import Footer from '../components/footer';
 
 const About = () => {
   return (
-    <div className="w-screen bg-[#50b2a2]">
+    <div className="w-screen lg:h-screen bg-[#50b2a2]">
       {/* logo arrowicon social media icon */}
       <div className="flex lg:w-[80%] p-6 mx-auto flex-row justify-between items-center text-center py-12">
         <div className=" flex lg:flex-row flex-col gap-7 items-center">
@@ -27,7 +27,7 @@ const About = () => {
       </div>
 
       {/* content */}
-      <div className="lg:w-[80%]  w-[90%] mx-auto my-auto flex flex-col justify-center items-center text-left">
+      <div className="lg:w-[80%] w-[90%] mx-auto my-auto flex flex-col justify-center items-center text-left">
         <div className=" text-white font-semibold my-20">
           <p className="lg:text-5xl text-3xl">About Degital Marketing Expert</p>
         </div>
@@ -50,11 +50,13 @@ const About = () => {
             and a team that has a clear sight of our clients business goals.
           </p>
         </div>
-        <button className="px-6 py-4 bg-yellow-500 mt-5 rounded-md text-xl font-semibold cursor-pointer">
+        <button className="px-6 py-4 bg-yellow-500 mt-[5rem] rounded-md text-xl font-semibold cursor-pointer">
           Know more about Sandiip Porwal
         </button>
       </div>
-      <Footer />
+      <div>
+        <Footer />
+      </div>
     </div>
   );
 };
