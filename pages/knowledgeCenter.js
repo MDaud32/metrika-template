@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import { FiArrowUpCircle } from 'react-icons/fi';
 import SocialMediaIcons from '../components/socialMediaIcons';
+import Footer from '../components/footer';
 
 const KnowledgeCenter = () => {
   const [selected, setSelected] = useState(null);
@@ -15,8 +16,8 @@ const KnowledgeCenter = () => {
 
   return (
     <div className="bg-[#d8733b]">
-      <div className="flex lg:w-[80%] p-6 mx-auto flex-row justify-between items-center text-center py-12">
-        <div className=" flex lg:flex-row flex-col gap-7 items-center">
+      <div className="flex lg:w-[80%] p-6 mx-auto flex-row justify-between items-center text-center pb-12">
+        <div className=" flex lg:flex-row flex-col gap-4 items-center">
           <div className="lg:text-4xl text-5xl text-white mt-2 self-start">
             <Link href="/">
               <a>
@@ -54,6 +55,7 @@ const KnowledgeCenter = () => {
           ))}
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

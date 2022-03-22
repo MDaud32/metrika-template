@@ -2,10 +2,11 @@ import React from 'react';
 import SocialMediaIcons from '../components/socialMediaIcons';
 import { FiArrowUpCircle } from 'react-icons/fi';
 import Link from 'next/link';
+import Footer from '../components/footer';
 
 const Collaborate = () => {
   return (
-    <div className="w-screen h-screen  bg-[#d9912a]">
+    <div className="w-screen h-screen flex flex-col  bg-[#d9912a]">
       {/* logo arrowicon social media icon */}
       <div className="flex lg:w-[80%] w-full p-6 mx-auto flex-row justify-between items-center text-center pt-12">
         <div className=" flex lg:flex-row flex-col gap-4 items-center">
@@ -30,9 +31,12 @@ const Collaborate = () => {
         <h1 className="text-3xl lg:text-6xl text-white font-semibold underline">
           Collaborate With Me
         </h1>
-        <button className="px-6 py-4 bg-violet-800 text-white my-8 rounded-md text-xl font-semibold cursor-pointer ">
+        <button className="px-6 py-4 bg-violet-800 text-white my-12 rounded-md text-xl font-semibold cursor-pointer ">
           We Will Help Your Get There.
-        </button>{' '}
+        </button>
+      </div>
+      <div className="flex flex-col justify-end ">
+        <Footer />
       </div>
     </div>
   );

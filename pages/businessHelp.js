@@ -2,11 +2,12 @@ import React from 'react';
 import Link from 'next/link';
 import SocialMediaIcons from '../components/socialMediaIcons';
 import { FiArrowUpCircle } from 'react-icons/fi';
+import Footer from '../components/footer';
 
 const BusinessHelp = () => {
   return (
     <div>
-      <div className="w-screena bg-[#50b28a]">
+      <div className="w-screen bg-[#50b28a]">
         {/* logo arrowicon social media icon */}
         <div className="flex lg:w-[80%] p-6 mx-auto flex-row justify-between items-center text-center py-12">
           <div className=" flex lg:flex-row flex-col gap-7 items-center">
@@ -30,7 +31,7 @@ const BusinessHelp = () => {
         <div className="p-4  mx-auto grid">
           <section className="text-gray-800">
             <div className="container mx-auto flex flex-col p-6">
-              <h2 className="py-4 lg:text-5xl md:text-5xl text-3xl text-gray-100 font-bold text-center">
+              <h2 className="py-4 lg:text-5xl md:text-5xl text-2xl text-gray-100 font-bold text-center">
                 How Digital Marketing Consulting Helps Your Business?
               </h2>
               <div className="lg:text-2xl md:text-2xl text-xl text-white lg:w-[70%] md:[70%] w-[95%] mx-auto my-8">
@@ -79,6 +80,7 @@ const BusinessHelp = () => {
             </div>
           </section>
         </div>
+        <Footer />
       </div>
     </div>
   );

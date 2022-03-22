@@ -2,10 +2,11 @@ import React from 'react';
 import SocialMediaIcons from '../components/socialMediaIcons';
 import { FiArrowUpCircle } from 'react-icons/fi';
 import Link from 'next/link';
+import Footer from '../components/footer';
 
 const Contact = () => {
   return (
-    <div className="w-screen py-4 bg-[#d8457a]">
+    <div className="w-screen bg-[#d8457a]">
       {/* logo arrowicon social media icon */}
       <div className="flex lg:w-[80%] p-6 mx-auto flex-row justify-between items-center text-center py-12">
         <div className=" flex lg:flex-row flex-col gap-7 items-center">
@@ -26,7 +27,7 @@ const Contact = () => {
       </div>
 
       {/* content */}
-      <div className="lg:w-[80%]  w-[90%] mx-auto my-auto flex flex-col justify-center items-center text-left">
+      <div className="lg:w-[80%]  w-[90%] mx-auto my-auto flex flex-col justify-center items-center text-left pb-8">
         <div className=" text-white flex text-left font-semibold mt-10">
           <p className="lg:text-5xl text-3xl justify-start">
             Want to Grow your Business with better Digital Marketing Results.
@@ -65,6 +66,7 @@ const Contact = () => {
           </p>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

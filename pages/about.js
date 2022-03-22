@@ -2,10 +2,11 @@ import React from 'react';
 import SocialMediaIcons from '../components/socialMediaIcons';
 import { FiArrowUpCircle } from 'react-icons/fi';
 import Link from 'next/link';
+import Footer from '../components/footer';
 
 const About = () => {
   return (
-    <div className="w-screen p-5 bg-[#50b2a2]">
+    <div className="w-screen bg-[#50b2a2]">
       {/* logo arrowicon social media icon */}
       <div className="flex lg:w-[80%] p-6 mx-auto flex-row justify-between items-center text-center py-12">
         <div className=" flex lg:flex-row flex-col gap-7 items-center">
@@ -53,6 +54,7 @@ const About = () => {
           Know more about Sandiip Porwal
         </button>
       </div>
+      <Footer />
     </div>
   );
 };

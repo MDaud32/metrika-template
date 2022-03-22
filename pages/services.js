@@ -3,6 +3,7 @@ import Link from 'next/link';
 import SocialMediaIcons from '../components/socialMediaIcons';
 import { FiArrowUpCircle } from 'react-icons/fi';
 import Image from 'next/image';
+import Footer from '../components/footer';
 
 const Services = () => {
   return (
@@ -82,6 +83,7 @@ const Services = () => {
             </div>
           </div>
         </div>
+        <Footer />
       </div>
     </div>
   );

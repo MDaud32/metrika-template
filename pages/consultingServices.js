@@ -2,11 +2,12 @@ import React from 'react';
 import Link from 'next/link';
 import SocialMediaIcons from '../components/socialMediaIcons';
 import { FiArrowUpCircle } from 'react-icons/fi';
+import Footer from '../components/footer';
 
 const OurTeam = () => {
   return (
     <div>
-      <div className="w-screen pb-20 md:h-full bg-[#50b28a]">
+      <div className="w-screen md:h-full bg-[#50b28a]">
         {/* logo arrowicon social media icon */}
         <div className="flex lg:w-[80%] p-6 mx-auto flex-row justify-between items-center text-center py-12">
           <div className=" flex lg:flex-row flex-col gap-7 items-center">
@@ -34,7 +35,7 @@ const OurTeam = () => {
         </button>
 
         {/* content */}
-        <div className=" lg:w-[90%] md:w-[85%] mx-auto flex flex-wrap px-1 lg:justify-center text-center pt-12 gap-[3.3px] lg:gap-7 md:gap-4">
+        <div className=" lg:w-[90%] md:w-[85%] mx-auto flex flex-wrap px-1 lg:justify-center text-center pt-12 pb-12 gap-[3.3px] lg:gap-7 md:gap-4">
           <div className="flex flex-col justify-center text-center bg-gray-400 h-[8rem] w-[62%] lg:h-[12rem] md:h-[10rem] lg:w-[60%] md:w-[60%] ">
             <p className={'px-2 lg:font-semibold md:font-normal text-white'}>
               Search Engine Optimization
@@ -65,6 +66,7 @@ const OurTeam = () => {
             </p>
           </div>
         </div>
+        <Footer />
       </div>
     </div>
   );
