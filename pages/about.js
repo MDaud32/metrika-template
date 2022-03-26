@@ -20,11 +20,11 @@ const About = () => {
               </a>
             </Link>
           </div>
-          <h1 className="lg:text-4xl text-3xl text-center justify-center text-white mx-auto whitespace-nowrap">
+          <h1 className="lg:text-4xl text-3xl text-center justify-center md:text-left text-white lg:mx-auto whitespace-nowrap">
             SANDIIP PORWAL
           </h1>
         </div>
-        <p className="lg:text-5xl text-3xl font-semibold lg:my-44 my-14 lg:ml-0  lg:w-[24rem] flex lg:text-left text-center ml-6 mx-auto">
+        <p className="lg:text-5xl text-3xl md:justify-center lg:justify-center font-semibold lg:my-44 my-14 lg:ml-32  lg:w-[24rem] flex md:text-left text-center ml-6mx-auto">
           About Degital Marketing Expert
         </p>
         <div>
