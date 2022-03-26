@@ -7,7 +7,7 @@ import Footer from '../components/footer';
 const BusinessHelp = () => {
   return (
     <div>
-      <div className="w-screen bg-[#50b28a]">
+      <div className="w-screen bg-[#0fa2cb]">
         {/* logo arrowicon social media icon */}
         <div className="flex lg:w-[80%] p-6 mx-auto flex-row justify-between items-center text-center py-12">
           <div className=" flex lg:flex-row flex-col gap-7 items-center">
