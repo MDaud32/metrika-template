@@ -53,7 +53,7 @@ const About = () => {
           and a team that has a clear sight of our clients business goals.
         </p>
         <div className="mx-auto">
-          <button className="px-6 py-4  bg-yellow-500 mt-[4rem] rounded-md text-xl font-semibold cursor-pointer">
+          <button className="px-6 py-4 bg-yellow-500 mt-[3rem] mb-[2rem] rounded-md text-xl font-semibold cursor-pointer">
             Know more about Sandiip Porwal
           </button>
         </div>
