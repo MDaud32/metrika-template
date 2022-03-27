@@ -2,92 +2,80 @@ import React from 'react';
 import Link from 'next/link';
 import SocialMediaIcons from '../components/socialMediaIcons';
 import { FiArrowUpCircle } from 'react-icons/fi';
-import Footer from '../components/footer';
+import { AiFillSignal } from 'react-icons/ai';
 
 const OurTeam = () => {
   return (
-    <div>
-      <div className="w-screen md:h-full bg-[#50b28a]">
-        {/* logo arrowicon social media icon */}
-        <div className="flex lg:w-[80%] p-6 mx-auto flex-row justify-between items-center text-center py-12">
-          <div className=" flex lg:flex-row flex-col gap-7 items-center">
-            <div className="lg:text-4xl text-5xl text-white mt-2 self-start">
-              <Link href="/">
-                <a>
-                  <FiArrowUpCircle className="" />
-                </a>
-              </Link>
-            </div>
-            <h1 className="lg:text-6xl md:text-6xl text-left text-4xl font-semibold text-white">
-              SANDIIP PORWAL
-            </h1>
+    <div className=" flex flex-col lg:flex-row ">
+      <div className="lg:w-1/2 lg:h-screen text-black bg-gray-400 ">
+        <div className="flex flex-row gap-7 mt-4 lg:gap-10 justify-center items-center ">
+          <div className="lg:text-4xl text-2xl  lg:mr-[-8rem] lg:ml-[6rem] text-white justify-end mt-2">
+            <Link href="/">
+              <a>
+                <FiArrowUpCircle size={30} />
+              </a>
+            </Link>
           </div>
-          <div className="self-start ml-[-14rem]">
-            <SocialMediaIcons />
-          </div>
+          <h1 className="lg:text-4xl text-3xl text-center justify-center md:text-left text-white lg:mx-auto whitespace-nowrap">
+            SANDIIP PORWAL
+          </h1>
         </div>
-
-        <div className="flex justify-center text-center text-6xl font-semibold text-white my-20">
-          <h1>Digital Marketing Services</h1>
+        <p className="lg:text-5xl text-3xl w-[20rem] justify-center lg:my-36 my-14 lg:ml-24  lg:w-[30rem] flex md:text-left text-center ml-6 mx-auto">
+          Degital Marketing Services
+        </p>
+        <div className="w-full">
+          <button className="flex mx-auto justify-center lg:px-6 px-3 py-4 bg-yellow-500 mt-[3rem] mb-[2rem] rounded-md text-xl font-semibold cursor-pointer">
+            Know more about Sandiip Porwal
+          </button>
         </div>
-        <button className="flex justify-center items-center text-center  mx-auto px-6 py-4 bg-yellow-500 my-8 rounded-md text-xl font-semibold cursor-pointer underline">
-          Shedule An Appointment
-        </button>
-
-        {/* content */}
-        <div className=" lg:w-[70%] md:w-[85%] mx-auto flex flex-wrap px-1 lg:justify-center text-center pt-12 pb-12 gap-[3.3px] lg:gap-7 md:gap-4">
-          <div className="flex flex-col justify-center text-center bg-gray-400 h-[8rem] w-[62%] lg:h-[12rem] md:h-[10rem] lg:w-[60%] md:w-[60%] ">
+      </div>
+      {/* <div className="justify-end self-end text-right">
+          <p className="lg:mt-[-4rem] mt-[-3rem]  border-t-2 text-gray-300">
+            Mark Nikson, General director
+          </p>
+        </div> */}
+      <div className="lg:w-1/2 ">
+        <div className="flex justify-end mt-1">
+          <SocialMediaIcons />
+        </div>
+        <div className="mx-auto lg:w-[90%] md:w-[90%] flex-row flex flex-wrap px-1 lg:justify-center text-center pt-6 pb-6 gap-[3.3px] lg:gap-3 md:gap-4 lg:mt-4 mt-8">
+          <div className="flex flex-col justify-center text-center bg-gray-400 h-[8rem] w-[62%] lg:h-[8rem] md:h-[10rem] lg:w-[17.7rem] md:w-[60%] ">
             <p
               className={
-                'px-2 lg:font-semibold md:font-normal lg:text-2xl text-white'
+                'px-8 md:font-normal lg:text-2xl text-left text-white'
               }>
               Search Engine Optimization
             </p>
           </div>
-          <div className="flex flex-col justify-center text-center bg-white h-[8rem] lg:h-[12rem] md:h-[10rem] w-[37%] ">
-            <p className={'px-2 lg:font-semibold md:font-normal lg:text-2xl'}>
+          <div className="flex flex-col justify-center text-left border-2 bg-white h-[8rem] lg:h-[8rem] md:h-[10rem] w-[37%] lg:w-[10rem]">
+            <p className={'px-2 md:font-normal lg:text-2xl'}>
               Online Reputation Managment
             </p>
           </div>
-          <div className="flex flex-col justify-center text-center bg-white h-[8rem] lg:h-[12rem] md:h-[10rem] w-[37%] text-gray-300">
-            <p
-              className={
-                'px-2 lg:font-semibold md:font-normal lg:text-2xl text-black'
-              }>
+          <div className="flex flex-col justify-center text-left border-2 bg-white h-[8rem] lg:h-[8rem] md:h-[10rem] lg:w-[10rem] w-[37%] text-gray-300">
+            <p className={'px-8 md:font-normal lg:text-2xl text-black'}>
               Services
             </p>
           </div>
-          <div className="flex flex-col justify-center text-center bg-gray-400 h-[8rem] lg:h-[12rem] md:h-[10rem] md:w-[60%] lg:w-[60%]  w-[62%]">
-            <p
-              className={
-                'px-2 lg:font-semibold md:font-normal lg:text-2xl text-white'
-              }>
+          <div className="flex flex-col justify-center text-center bg-gray-400 h-[8rem] lg:h-[8rem] md:h-[10rem] md:w-[60%] lg:w-[17.7rem] w-[62%]">
+            <p className={'px-2 md:font-normal lg:text-2xl text-white'}>
               Google Ads Compaigns
             </p>
           </div>
-          <div className="flex flex-col justify-center text-center bg-gray-400 h-[8rem] lg:h-[12rem] lg:w-[32%] w-[33%] md:h-[10rem]">
-            <p
-              className={
-                'px-2 lg:font-semibold md:font-normal lg:text-2xl text-white'
-              }>
+          <div className="flex flex-col justify-center text-left bg-gray-400 h-[8rem] lg:h-[8rem] lg:w-[9rem] w-[32.7%] md:h-[10rem]">
+            <p className={'px-2 md:font-normal lg:text-xl text-white'}>
               Shedule Meeting
             </p>
           </div>
-          <div className="flex flex-col justify-center text-center bg-white h-[8rem] lg:h-[12rem] md:h-[10rem] lg:w-[31%] w-[32%]">
-            <p className={'px-2 lg:font-semibold md:font-normal lg:text-2xl'}>
-              Knowledge Center
-            </p>
+          <div className="flex flex-col justify-center text-left bg-white h-[8rem] lg:h-[8rem] md:h-[10rem] lg:w-[9rem] border-2 w-[32.7%]">
+            <p className={'px-2 md:font-normal lg:text-xl'}>Knowledge Center</p>
           </div>
-          <div className="flex flex-col justify-center text-center bg-gray-400 h-[8rem] lg:h-[12rem] md:h-[10rem] lg:w-[31%]  w-[33%] md:w-[30%]">
-            <p
-              className={
-                'px-2 lg:font-semibold md:font-normal lg:text-2xl text-white'
-              }>
+          <div className="flex flex-col justify-center text-left bg-gray-400 lg:h-[8rem] md:h-[10rem] lg:w-[9rem] w-[32.7%] md:w-[30%]">
+            <p className={'px-2 md:font-normal lg:text-xl text-white'}>
               Collaboration With Me
             </p>
           </div>
         </div>
-        <Footer />
       </div>
     </div>
   );
