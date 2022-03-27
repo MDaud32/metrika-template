@@ -12,13 +12,13 @@ import Footer from './footer';
 
 const Navbar = () => {
   return (
-    <div className="bg-gray-50 h-screen w-full">
+    <div className="bg-gray-50 h-screen w-screen">
       {/* logo and social links */}
-      <div className="flex flex-col lg:justify-evenly justify-center items-center lg:pt-10">
-        <div className="text-2xl lg:ml-[55rem] pb-7 lg:m-4 lg:self-center md:self-end self-end">
+      <div className="flex flex-col lg:justify-start items-center lg:pt-10">
+        <div className="text-2xl lg: pb-7 lg:m-4  md:self-end self-end">
           <SocialMediaIcons />
         </div>
-        <h1 className="text-4xl font-light lg:text-6xl lg:ml-[-52rem] lg:mt-[-7rem]">
+        <h1 className="text-4xl font-light lg:self-start self-center lg:text-6xl  lg:mt-[-7rem] lg:ml-20">
           Metrika
         </h1>
       </div>
@@ -114,7 +114,7 @@ const Navbar = () => {
 
       <div
         className={
-          'p-10 hidden lg:flex flex-col md:flex justify-center items-center lg:mx-auto lg:mt-[4rem] md:w-screen'
+          'p-10 hidden lg:w-screen lg:flex flex-col md:flex justify-center items-center lg:mx-auto lg:mt-[4rem] md:w-screen '
         }>
         <div className={'flex'}>
           <div className={'flex flex-col justify-center'}>

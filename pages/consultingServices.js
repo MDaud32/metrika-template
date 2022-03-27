@@ -2,14 +2,13 @@ import React from 'react';
 import Link from 'next/link';
 import SocialMediaIcons from '../components/socialMediaIcons';
 import { FiArrowUpCircle } from 'react-icons/fi';
-import { AiFillSignal } from 'react-icons/ai';
 
 const OurTeam = () => {
   return (
     <div className=" flex flex-col lg:flex-row ">
       <div className="lg:w-1/2 lg:h-screen text-black bg-gray-400 ">
-        <div className="flex flex-row gap-7 mt-4 lg:gap-10 justify-center items-center ">
-          <div className="lg:text-4xl text-2xl  lg:mr-[-8rem] lg:ml-[6rem] text-white justify-end mt-2">
+        <div className="flex flex-row gap-7 mt-4 lg:gap-10 md:gap-8 md:justify-start justify-center items-center md:ml-7">
+          <div className="lg:text-4xl text-2xl flex lg:mr-[-8rem] lg:ml-[6rem] text-white justify-end mt-2 md:mt-1 ">
             <Link href="/">
               <a>
                 <FiArrowUpCircle size={30} />
@@ -20,9 +19,11 @@ const OurTeam = () => {
             SANDIIP PORWAL
           </h1>
         </div>
-        <p className="lg:text-5xl text-3xl w-[20rem] justify-center lg:my-36 my-14 lg:ml-24  lg:w-[30rem] flex md:text-left text-center ml-6 mx-auto">
-          Degital Marketing Services
-        </p>
+        <dir className="">
+          <p className="lg:text-5xl text-3xl md:text-5xl justify-center lg:my-36 my-14 lg:ml-24 md:w-[25rem] lg:w-[30rem] flex md:text-left text-left ml-3 md:mx-auto mx-auto">
+            Degital Marketing Services
+          </p>
+        </dir>
         <div className="w-full">
           <button className="flex mx-auto justify-center lg:px-6 px-3 py-4 bg-yellow-500 mt-[3rem] mb-[2rem] rounded-md text-xl font-semibold cursor-pointer">
             Know more about Sandiip Porwal
