@@ -1,21 +1,21 @@
 import React from 'react';
 import Link from 'next/link';
 import SocialMediaIcons from '../components/socialMediaIcons';
-import { FiArrowUpCircle } from 'react-icons/fi';
+import PageChange from '../components/pageChange';
 
 const OurTeam = () => {
   return (
     <div className=" flex flex-col lg:flex-row ">
       <div className="lg:w-1/2 lg:h-screen text-black bg-gray-400 ">
-        <div className="flex flex-row gap-7 mt-4 lg:gap-10 md:gap-8 md:justify-start justify-center items-center md:ml-7">
-          <div className="lg:text-4xl text-2xl flex lg:mr-[-8rem] lg:ml-[6rem] text-white justify-end mt-2 md:mt-1 ">
+        <div className="flex flex-row gap-7 lg:gap-0 justify-center items-center mt-10">
+          <div className="lg:text-3xl text-2xl lg:mr-[-8rem] lg:ml-[4.5rem] text-white justify-end mt-1">
             <Link href="/">
               <a>
-                <FiArrowUpCircle size={30} />
+                <PageChange target={'/services'} />
               </a>
             </Link>
           </div>
-          <h1 className="lg:text-4xl text-3xl text-center justify-center md:text-left text-white lg:mx-auto whitespace-nowrap">
+          <h1 className="lg:text-3xl text-3xl text-center justify-center md:text-left text-white lg:mx-auto whitespace-nowrap">
             SANDIIP PORWAL
           </h1>
         </div>

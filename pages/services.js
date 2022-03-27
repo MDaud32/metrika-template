@@ -1,9 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
 import SocialMediaIcons from '../components/socialMediaIcons';
-import { FiArrowUpCircle } from 'react-icons/fi';
 import Image from 'next/image';
-import Footer from '../components/footer';
+import PageChange from '../components/pageChange';
 
 const Services = () => {
   return (
@@ -11,16 +10,16 @@ const Services = () => {
       <div className="w-screen md:h-screen bg-[#c85141]">
         {/* logo arrowicon social media icon */}
         <div className="flex lg:w-[80%] p-6 mx-auto flex-row justify-between items-center text-center py-12">
-          <div className=" flex lg:flex-row flex-col gap-7 items-center">
-            <div className="lg:text-4xl text-5xl text-white mt-2 self-start">
+          <div className="flex flex-row gap-7 lg:gap-0 justify-center items-center mt-10">
+            <div className="lg:text-3xl text-2xl lg:mr-[8rem] lg:ml-[4.5rem] text-white justify-end mt-1">
               <Link href="/">
                 <a>
-                  <FiArrowUpCircle className="" />
+                  <PageChange target={'/businessHelp'} />
                 </a>
               </Link>
             </div>
-            <h1 className="lg:text-6xl md:text-6xl text-left text-4xl text-white lg:w-[10rem]">
-              Services
+            <h1 className="lg:text-3xl text-3xl text-center justify-center md:text-left text-white lg:mx-auto whitespace-nowrap">
+              SANDIIP PORWAL
             </h1>
           </div>
           <div className="self-start ml-[-3rem]">
@@ -84,9 +83,6 @@ const Services = () => {
               </div>
             </div>
           </div>
-        </div>
-        <div className="flex justify-center lg:mt-[12rem] md:mt-[9rem]">
-          <Footer />
         </div>
       </div>
     </div>

@@ -15,7 +15,7 @@ const Navbar = () => {
     <div className="bg-gray-50 h-screen w-screen">
       {/* logo and social links */}
       <div className="flex flex-col lg:justify-start items-center lg:pt-10">
-        <div className="text-2xl lg: pb-7 lg:m-4  md:self-end self-end">
+        <div className="text-2xl lg: pb-7 lg:m-4  md:self-end self-end lg:mr-10">
           <SocialMediaIcons />
         </div>
         <h1 className="text-4xl font-light lg:self-start self-center lg:text-6xl  lg:mt-[-7rem] lg:ml-20">
