@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
-import { FiArrowUpCircle } from 'react-icons/fi';
+import { AiFillSignal } from 'react-icons/ai';
 import SocialMediaIcons from '../components/socialMediaIcons';
-import Footer from '../components/footer';
+import PageChange from '../components/pageChange';
 
 const KnowledgeCenter = () => {
   const [selected, setSelected] = useState(null);
@@ -15,47 +15,54 @@ const KnowledgeCenter = () => {
   };
 
   return (
-    <div className="bg-[#d8733b]">
-      <div className="flex lg:w-[80%] p-6 mx-auto flex-row justify-between items-center text-center pb-12">
-        <div className=" flex lg:flex-row flex-col gap-4 items-center">
-          <div className="lg:text-4xl text-5xl text-white mt-2 self-start">
+    <div className=" flex flex-col lg:flex-row ">
+      <div className="lg:w-1/2 lg:h-screen text-black bg-gray-400 p-10">
+        <div className="flex flex-row gap-1 lg:gap-[3rem] justify-center items-center ">
+          <div className="lg:text-3xl text-3xl lg:mr-[-8rem] lg:ml-[2rem] text-white justify-end mt-1">
             <Link href="/">
               <a>
-                <FiArrowUpCircle className="" />
+                <PageChange target={'/collaboration'} />
               </a>
             </Link>
           </div>
-          <h1 className="lg:text-6xl md:text-6xl text-4xl text-white whitespace-nowrap">
+          <h1 className="lg:text-3xl text-3xl text-center justify-center md:text-left text-white lg:mx-auto whitespace-nowrap">
             SANDIIP PORWAL
           </h1>
         </div>
-        <div className="self-start ml-[-12rem]">
+        <p className="lg:text-4xl text-3xl md:justify-center lg:justify-center font-semibold lg:my-32 my-14 lg:ml-16  lg:w-[24rem] flex md:text-left text-center ml-6mx-auto">
+          Knowledge Center
+        </p>
+        <div>
+          <AiFillSignal size={80} color={'black'} className={'mx-auto'} />
+        </div>
+      </div>
+      {/* <div className="justify-end self-end text-right">
+          <p className="lg:mt-[-4rem] mt-[-3rem]  border-t-2 text-gray-300">
+            Mark Nikson, General director
+          </p>
+        </div> */}
+      <div className="flex flex-col lg:w-1/2">
+        <div className="flex justify-end">
           <SocialMediaIcons />
         </div>
-      </div>
-
-      <div className="flex text-center justify-center text-white lg:text-5xl md:text-6xl text-4xl font-semibold lg:mb-[-4rem] mb-[-3rem] md:mb-[-9rem] md:mt-[4rem] mt-[3rem]  ">
-        Knowledge Center
-      </div>
-
-      <div className="flex h-screen w-screen justify-center items-center">
-        <div className="lg:w-[600px] md:w-[600px] w-[90%] ">
-          {data.map((item, i) => (
-            <div key={i} className="bg-[#f0ebe1] mb-3 py-3 px-8">
-              <div
-                className="text-black flex justify-between items-center cursor-pointer"
-                onClick={() => toggle(i)}>
-                <h1>{item.question}</h1>
-                <span>{selected === i ? '-' : '+'}</span>
+        <div className="flex flex-col lg:h-screen justify-center items-center">
+          <div className=" w-[90%] my-16">
+            {data.map((item, i) => (
+              <div key={i} className="bg-[#f0ebe1] mb-3 py-3 px-8">
+                <div
+                  className="text-black flex justify-between items-center cursor-pointer"
+                  onClick={() => toggle(i)}>
+                  <h1>{item.question}</h1>
+                  <span>{selected === i ? '-' : '+'}</span>
+                </div>
+                <div className={selected === i ? 'content show' : 'content'}>
+                  {item.answer}
+                </div>
               </div>
-              <div className={selected === i ? 'content show' : 'content'}>
-                {item.answer}
-              </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 };

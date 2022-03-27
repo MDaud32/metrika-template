@@ -7,8 +7,8 @@ const OurTeam = () => {
   return (
     <div className=" flex flex-col lg:flex-row ">
       <div className="lg:w-1/2 lg:h-screen text-black bg-gray-400 ">
-        <div className="flex flex-row gap-7 lg:gap-0 justify-center items-center mt-10">
-          <div className="lg:text-3xl text-2xl lg:mr-[-8rem] lg:ml-[4.5rem] text-white justify-end mt-1">
+        <div className="flex flex-row gap-1 lg:gap-0 justify-center items-center mt-10">
+          <div className="lg:text-3xl text-3xl lg:mr-[-8rem] lg:ml-[4.5rem] text-white justify-end mt-1">
             <Link href="/">
               <a>
                 <PageChange target={'/services'} />

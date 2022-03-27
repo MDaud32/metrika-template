@@ -10,8 +10,8 @@ const Services = () => {
       <div className="w-screen md:h-screen bg-[#c85141]">
         {/* logo arrowicon social media icon */}
         <div className="flex lg:w-[80%] p-6 mx-auto flex-row justify-between items-center text-center py-12">
-          <div className="flex flex-row gap-7 lg:gap-0 justify-center items-center mt-10">
-            <div className="lg:text-3xl text-2xl lg:mr-[8rem] lg:ml-[4.5rem] text-white justify-end mt-1">
+          <div className="flex flex-row gap-1 lg:gap-0 justify-center items-center mt-10">
+            <div className="lg:text-3xl text-3xl lg:mr-[8rem] lg:ml-[4.5rem] text-white justify-end mt-1">
               <Link href="/">
                 <a>
                   <PageChange target={'/businessHelp'} />

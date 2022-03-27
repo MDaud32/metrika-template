@@ -1,6 +1,5 @@
 import Link from 'next/link';
-import router from 'next/router';
-import { FiArrowUpCircle, FiArrowLeftCircle } from 'react-icons/fi';
+import { FiArrowUpCircle, FiArrowRightCircle } from 'react-icons/fi';
 
 const PageChange = ({ target }) => {
   return (
@@ -13,7 +12,7 @@ const PageChange = ({ target }) => {
 
       <Link href={`${target}`}>
         <a>
-          <FiArrowLeftCircle />
+          <FiArrowRightCircle />
         </a>
       </Link>
     </div>
