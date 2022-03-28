@@ -36,7 +36,7 @@ const Collaborate = () => {
         <div className="flex justify-end">
           <SocialMediaIcons />
         </div>
-        <div className="mx-auto my-auto flex flex-col justify-center items-center text-left mt-20 lg:mt-40 gap-10">
+        <div className="mx-auto  my-auto flex flex-col justify-center items-center text-left mt-20 lg:mt-40 gap-10">
           <h1 className="text-3xl lg:text-6xl text-white font-semibold underline">
             Collaborate With Me
           </h1>
