@@ -8,19 +8,19 @@ const OurTeam = () => {
     <div className=" flex flex-col lg:flex-row ">
       <div className="lg:w-1/2 lg:h-screen text-black bg-gray-400 ">
         <div className="flex flex-row gap-1 lg:gap-0 justify-center items-center mt-10">
-          <div className="lg:text-3xl text-3xl lg:mr-[-8rem] lg:ml-[4.5rem] text-white justify-end mt-1">
+          <div className="lg:text-3xl text-3xl lg:mr-[-10rem] lg:ml-[4.5rem] text-white justify-end mt-1">
             <Link href="/">
               <a>
                 <PageChange target={'/services'} />
               </a>
             </Link>
           </div>
-          <h1 className="lg:text-3xl text-3xl text-center justify-center md:text-left text-white lg:mx-auto whitespace-nowrap">
+          <h1 className="lg:text-3xl text-3xl text-center font-light justify-center md:text-left text-white lg:mx-auto whitespace-nowrap">
             SANDIIP PORWAL
           </h1>
         </div>
         <dir className="">
-          <p className="lg:text-5xl text-3xl md:text-5xl justify-center lg:my-36 my-14 lg:ml-24 md:w-[25rem] lg:w-[30rem] flex md:text-left text-left ml-3 md:mx-auto mx-auto">
+          <p className="lg:text-5xl text-3xl md:text-5xl justify-center lg:my-36 my-14 lg:ml-24 md:w-[25rem] lg:w-[30rem] flex md:text-left text-left ml-3 md:mx-auto mx-auto font-light">
             Degital Marketing Services
           </p>
         </dir>

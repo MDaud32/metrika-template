@@ -9,18 +9,18 @@ const BusinessHelp = () => {
     <div className=" flex flex-col lg:flex-row ">
       <div className="lg:w-1/2 lg:h-screen text-black bg-gray-400 p-10">
         <div className="flex flex-row gap-1 lg:gap-[3rem] justify-center items-center ">
-          <div className="lg:text-3xl text-3xl lg:mr-[-8.5rem] lg:ml-[2rem] text-white justify-end mt-1">
+          <div className="lg:text-3xl text-3xl lg:mr-[-10.4rem] lg:ml-[2rem] text-white justify-end mt-1">
             <Link href="/">
               <a>
                 <PageChange target={'/contact'} />
               </a>
             </Link>
           </div>
-          <h1 className="lg:text-3xl text-3xl text-center justify-center md:text-left text-white lg:mx-auto whitespace-nowrap">
+          <h1 className="lg:text-3xl text-3xl text-center font-light justify-center md:text-left text-white lg:mx-auto whitespace-nowrap">
             SANDIIP PORWAL
           </h1>
         </div>
-        <p className="lg:text-4xl text-3xl md:justify-center lg:justify-center font-semibold lg:my-28 my-14 lg:ml-16  lg:w-[25rem] flex md:text-left text-center ml-6mx-auto">
+        <p className="lg:text-5xl text-3xl md:justify-center lg:justify-center font-light lg:my-28 my-14 lg:ml-32  lg:w-[25rem] flex md:text-left text-center ml-6mx-auto">
           How Digital Marketing Consulting Helps Your Business?
         </p>
         <div>

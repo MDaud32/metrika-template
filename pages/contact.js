@@ -9,14 +9,14 @@ const Contact = () => {
     <div className=" flex flex-col lg:flex-row ">
       <div className="lg:w-1/2 lg:h-screen text-black bg-gray-400 p-10">
         <div className="flex flex-row gap-1 lg:gap-[3rem] justify-center items-center ">
-          <div className="lg:text-3xl text-3xl lg:mr-[-8rem] lg:ml-[2rem] text-white justify-end mt-1">
+          <div className="lg:text-3xl text-3xl lg:mr-[-10.4rem] lg:ml-[2rem] text-white justify-end mt-1">
             <Link href="/">
               <a>
                 <PageChange target={'/knowledgeCenter'} />
               </a>
             </Link>
           </div>
-          <h1 className="lg:text-3xl text-3xl text-center justify-center md:text-left text-white lg:mx-auto whitespace-nowrap">
+          <h1 className="lg:text-3xl text-3xl text-center font-light justify-center md:text-left text-white lg:mx-auto whitespace-nowrap">
             SANDIIP PORWAL
           </h1>
         </div>
@@ -24,7 +24,7 @@ const Contact = () => {
           About Degital Marketing Expert
         </p> */}
         <div className="flex flex-col justify-center mx-auto lg:mt-28 mt-10 lg:mb-12 lg:w-[25rem] text-left">
-          <p className="lg:text-3xl text-3xl">
+          <p className="lg:text-4xl text-3xl font-light">
             Want to Grow your Business with better Digital Marketing Results.
           </p>
           <button className="px-6 py-4 bg-yellow-500 my-8 rounded-md text-xl font-semibold cursor-pointer underline">
